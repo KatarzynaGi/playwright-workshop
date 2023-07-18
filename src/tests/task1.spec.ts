@@ -1,4 +1,5 @@
 import { test } from '@playwright/test';
+const zmiana
 
 test('TASK-1 - create first test case', async ({ page }) => {
   // 1. Przejdź do strony 'https://automation-staging-deviniti.atlassian.net/projects/SZKOL?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.deviniti.atlassian.apps.rtm-test__project-main-view'

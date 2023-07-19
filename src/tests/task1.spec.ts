@@ -3,7 +3,7 @@ const zmiana
 
 test('TASK-1 - create first test case', async ({ page }) => {
   // 1. Przejdź do strony 'https://automation-staging-deviniti.atlassian.net/projects/SZKOL?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.deviniti.atlassian.apps.rtm-test__project-main-view'
- 
+ 1.a
   // 2. Zamknij spotlight
 
   // 3. Wejdź do zakładki "Test Cases"

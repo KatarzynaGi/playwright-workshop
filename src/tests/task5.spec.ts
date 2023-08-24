@@ -7,9 +7,6 @@ test('TASK-5 - add Containers', async ({ page }) => {
     const summary = chance.sentence({ words: 3 });
     const componentValue = 'Account';
 
-    const actionsContainer = new RtmActionsContainer(page);
-    const { navigationActions, treeViewActions, flexSearchViewActions, createViewActions, issueViewActions } = actionsContainer;
-
     await test.step('1. Przejdź do strony', async () => {
         await navigationActions.navigateToTestManagement();
     });
